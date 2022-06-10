@@ -5,10 +5,11 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #232531;
 }
 
 .navbar {
-    display: flex;
+    display:flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
@@ -67,6 +68,37 @@ body {
     justify-content: space-between;
     width: 30px;
     height: 21px;
+}
+.section-heading{
+    color: #e12836;
+    margin: 3.5rem 0rem 0.5rem 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    display: inline-block;
+}
+.section-heading:hover{
+    text-decoration: underline;
+    color: white;
+    transition: 1s;
+}
+.query{
+    margin:2rem 0rem;
+}
+.query ul li{
+    list-style: none;
+    margin:0;
+}
+.ques{
+    color: #e12836;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin:0;
+}
+.ans{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin:0.5rem 0rem;
 }
 
 
