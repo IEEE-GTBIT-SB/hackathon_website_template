@@ -166,6 +166,22 @@ grid-row-gap: 0px;
     width: 100%;
     height: 100%;
 }
+footer{
+    background-color: #424659;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-top: 0.25rem solid #e12836;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+footer p{
+    margin: 0.5rem;
+}
+.footer-social a i{
+    color: #e12836;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
 
 @media (max-width: 800px) {
     .navbar {
