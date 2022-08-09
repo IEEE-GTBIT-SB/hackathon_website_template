@@ -482,4 +482,8 @@ grid-row-gap: 0px;
       max-width: 700px;
       margin: 20px 0;
     }
+    .card .img{
+        height: 200px;
+        width: 100%;
+      }
   }
