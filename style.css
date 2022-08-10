@@ -467,7 +467,7 @@ grid-row-gap: 0px;
     .tracks-grid{
         display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(16, 1fr);
+grid-template-rows: repeat(14, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 margin: 1rem 0.5rem;
