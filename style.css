@@ -366,7 +366,7 @@ grid-row-gap: 0px;
 }
 .Specialtracks-grid{
     display: grid;
-grid-template-columns: (2, 1fr);
+grid-template-columns: repeat(2, 1fr);
 grid-template-rows: (4, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
@@ -400,7 +400,7 @@ margin: 4rem 2rem;
 }
 .tracks-grid{
     display: grid;
-grid-template-columns: (2, 1fr);
+grid-template-columns: repeat(2, 1fr);
 grid-template-rows: (5, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
