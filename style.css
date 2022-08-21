@@ -348,7 +348,7 @@ grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-.sponsor p{
+.sponsor-p{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
