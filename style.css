@@ -21,11 +21,19 @@ body {
     font-size: 2.5rem;
     margin: 1rem;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav-title span{
     color: #65fcf0;
 }
-
+.nav-title img{
+    display: inline;
+    width: 75px;
+    height: 75px;
+    margin: 0 1rem;
+}
 .nav-links {
     height: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -485,7 +493,6 @@ footer p{
     .nav-links ul li a {
         padding: .5rem 1rem;
     }
-
     .nav-links.active {
         display: flex;
     }
