@@ -457,6 +457,12 @@ footer{
     border-top: 0.25rem solid #e12836;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 1rem;
+}
 footer p{
     margin: 0.5rem;
 }
