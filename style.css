@@ -420,6 +420,8 @@ margin: 4rem 2rem;
 .track-pic img{
     width: 300px;
     height: 200px;
+    border-radius: 10px;
+    object-fit: contain;
 }
 .track-about{
     margin: 2rem;
@@ -429,7 +431,7 @@ margin: 4rem 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .track-about-para{
     color: white;
