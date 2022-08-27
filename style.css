@@ -578,22 +578,88 @@ grid-row-gap: 0px;
         text-align: center;
         font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
     }
-.profile-container{
-    padding: 0 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    .profiles{
+        height: 200%;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    }
+.profilee-grid{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 30px;
+}
+.profilee-p{
+    color: white;
+    font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    font-size: 1.5rem;
+    margin:0rem 0rem;
+}
+  .card{
+    height: 280px;
+    max-width: 350px;
+    margin: 0 0px;
+    transition: 0.8s;
+    /* box-shadow: 2px 2px 5px rgba(0,0,0,0.2); */
   }
+  .card .img{
+    height: 200px;
+    width: 200px;
+  }
+  .img-mentor img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card .top-text{
+    padding: 5px;
+  }
+  .card .top-text .name{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+  }
+  .card .top-text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #65fcf0;
+    line-height: 20px;
+  }
+  .card .bottom-text{
+    padding: 0 0px 0px 0px;
+    margin-top: 0px;
+    /* background: white; */
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+  }
+.profile-grid{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 30px;
+}
+.profile-p{
+    color: white;
+    font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+    font-size: 1.5rem;
+    margin:2.5rem 2.5rem;
+}
   .card{
     height: 280px;
     max-width: 350px;
     margin: 0 20px;
     transition: 0.8s;
     /* box-shadow: 2px 2px 5px rgba(0,0,0,0.2); */
-  }
-  .card:hover{
-    height: 470px;
-    /* box-shadow: 5px 5px 10px rgba(0,0,0,0.2); */
   }
   .card .img{
     height: 200px;
@@ -631,31 +697,7 @@ grid-row-gap: 0px;
     visibility: hidden;
     transition: 0.1s;
   }
-  .card:hover .bottom-text{
-    opacity: 1;
-    visibility: visible;
-  }
-  .card .bottom-text .text{
-    text-align: justify;
-    color: white;
-  }
-  .card .bottom-text .btn{
-    margin: 10px 0;
-    text-align: left;
-  }
-  .card .bottom-text .btn a{
-    text-decoration: none;
-    background: #65fcf0;
-    color: #f2f2f2;
-    padding: 5px 8px;
-    border-radius: 3px;
-    display: inline-flex;
-    transition: 0.2s;
-    color: black;
-  }
-  .card .bottom-text .btn a:hover{
-    transform: scale(0.9);
-  }
+  
   @media screen and (max-width: 980px) {
     .profile-container{
       flex-wrap: wrap;
