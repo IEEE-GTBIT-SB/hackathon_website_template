@@ -572,75 +572,68 @@ grid-row-gap: 0px;
     ; font-weight: bold; } .js-count-particles{ font-size: 1.1em; }
 
 .profiles{
-        height: 200%;
-        display: grid;
-        place-items: center;
-        text-align: center;
-        font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
-    }
-    .profiles{
-        height: 200%;
-        display: grid;
-        place-items: center;
-        text-align: center;
-        font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
-    }
-.profilee-grid{
+    height: 200%;
     display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(1, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 30px;
-}
-.profilee-p{
-    color: white;
+    place-items: center;
+    text-align: center;
     font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
-    font-size: 1.5rem;
-    margin:0rem 0rem;
 }
-  .card{
+.profile-container{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .card{
     height: 280px;
     max-width: 350px;
-    margin: 0 0px;
+    margin: 0 20px;
     transition: 0.8s;
     /* box-shadow: 2px 2px 5px rgba(0,0,0,0.2); */
-  }
-  .card .img{
-    height: 200px;
-    width: 200px;
-  }
-  .img-mentor img{
+    }
+    .card .img{
+     height: 200px;
+     width: 200px;
+    }
+    .img-mentor img{
     height: 200px;
     width: 200px;
     object-fit: cover;
-  }
-  .card .img img{
+    }
+    .card .img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
-  }
-  .card .top-text{
+    }
+    .card .top-text{
     padding: 5px;
-  }
-  .card .top-text .name{
+    }
+    .card .top-text .name{
     font-size: 25px;
     font-weight: 600;
     color: white;
-  }
-  .card .top-text p{
+    }
+    .card .top-text p{
     font-size: 20px;
     font-weight: 600;
     color: #65fcf0;
     line-height: 20px;
-  }
-  .card .bottom-text{
-    padding: 0 0px 0px 0px;
-    margin-top: 0px;
+    }
+    .card .bottom-text{
+    padding: 0 20px 10px 20px;
+    margin-top: 5px;
     /* background: white; */
     opacity: 0;
     visibility: hidden;
     transition: 0.1s;
-  }
+    }
+.profiles{
+    height: 200%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-family: "Avantgarde", "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
 .profile-grid{
     display: grid;
 grid-template-columns: repeat(3, 1fr);
